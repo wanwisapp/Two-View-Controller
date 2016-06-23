@@ -20,6 +20,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    
+    
 
+    @IBAction func GotoSecond(sender: AnyObject) {
+        
+        let goToSecond = self.storyboard?.instantiateViewControllerWithIdentifier("wanwisappView") as! wanwisappViewController
+        self.navigationController?.pushViewController(goToSecond, animated: true)
+        
+        
+    }
 }
 

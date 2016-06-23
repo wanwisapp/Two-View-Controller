@@ -14,6 +14,7 @@
 		C78524FE1D1B8F7D003FC8E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78524FC1D1B8F7D003FC8E6 /* LaunchScreen.storyboard */; };
 		C78525091D1B8F7D003FC8E6 /* Two_View_Controller_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78525081D1B8F7D003FC8E6 /* Two_View_Controller_2Tests.swift */; };
 		C78525141D1B8F7D003FC8E6 /* Two_View_Controller_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78525131D1B8F7D003FC8E6 /* Two_View_Controller_2UITests.swift */; };
+		C78525221D1B9198003FC8E6 /* wanwisappViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78525211D1B9198003FC8E6 /* wanwisappViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C785250F1D1B8F7D003FC8E6 /* Two View Controller 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two View Controller 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78525131D1B8F7D003FC8E6 /* Two_View_Controller_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_View_Controller_2UITests.swift; sourceTree = "<group>"; };
 		C78525151D1B8F7D003FC8E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78525211D1B9198003FC8E6 /* wanwisappViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wanwisappViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				C78524F31D1B8F7D003FC8E6 /* AppDelegate.swift */,
 				C78524F51D1B8F7D003FC8E6 /* ViewController.swift */,
 				C78524F71D1B8F7D003FC8E6 /* Main.storyboard */,
+				C78525211D1B9198003FC8E6 /* wanwisappViewController.swift */,
 				C78524FA1D1B8F7D003FC8E6 /* Assets.xcassets */,
 				C78524FC1D1B8F7D003FC8E6 /* LaunchScreen.storyboard */,
 				C78524FF1D1B8F7D003FC8E6 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C78524F61D1B8F7D003FC8E6 /* ViewController.swift in Sources */,
+				C78525221D1B9198003FC8E6 /* wanwisappViewController.swift in Sources */,
 				C78524F41D1B8F7D003FC8E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
